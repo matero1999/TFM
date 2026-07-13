@@ -1,0 +1,137 @@
+2026-04-11 14:06:42,091 [INFO] api.main: ============================================================
+2026-04-11 14:06:42,091 [INFO] api.main:   Iniciando Asistente Jurídico-Laboral BOE
+2026-04-11 14:06:42,092 [INFO] api.main: ============================================================
+2026-04-11 14:06:42,092 [INFO] api.main: Backend LLM: salamandra
+2026-04-11 14:06:42,092 [INFO] api.main: Top-K retrieval: 5
+2026-04-11 14:06:42,092 [INFO] llm.rag_chain: Inicializando RAGChain (backend=salamandra)...
+2026-04-11 14:06:42,092 [INFO] retriever.hybrid_retriever: Inicializando HybridRetriever...
+2026-04-11 14:06:42,098 [INFO] retriever.vector_store: Índice FAISS cargado: 681 vectores
+2026-04-11 14:06:42,119 [INFO] retriever.vector_store: Chunks cargados: 681
+2026-04-11 14:06:42,138 [INFO] retriever.bm25_retriever: Construyendo índice BM25 sobre 681 chunks...
+2026-04-11 14:06:42,221 [INFO] retriever.bm25_retriever: Índice BM25 construido correctamente.
+2026-04-11 14:06:42,222 [INFO] embeddings.embedding_manager: Cargando modelo desde ruta local: ./models/bge-m3-legal-spanish
+2026-04-11 14:06:42,224 [INFO] embeddings.embedding_manager: Dispositivo: cpu | Batch size: 4
+2026-04-11 14:06:42,225 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: ./models/bge-m3-legal-spanish
+2026-04-11 14:06:43,947 [INFO] embeddings.embedding_manager: Modelo cargado. Dimensión: 1024
+2026-04-11 14:06:43,948 [INFO] retriever.hybrid_retriever: HybridRetriever listo.
+2026-04-11 14:06:43,948 [INFO] llm.salamandra_client: GPU no disponible. Modo: CPU (inferencia lenta)
+2026-04-11 14:06:43,948 [INFO] llm.salamandra_client: Cargando desde ruta local: ./models/salamandra-2b-instruct
+2026-04-11 14:06:43,948 [INFO] llm.salamandra_client: Cargando tokenizador...
+2026-04-11 14:06:44,829 [WARNING] llm.salamandra_client: Cargando en CPU. La inferencia será lenta (2-5 minutos por respuesta). Considere usar la API de OpenAI si necesita velocidad.
+2026-04-11 14:06:53,469 [INFO] llm.salamandra_client: ✅ Salamandra-7B cargado y listo.
+2026-04-11 14:06:53,472 [INFO] llm.rag_chain: ✅ RAGChain lista. Backend: salamandra
+2026-04-11 14:06:53,472 [INFO] api.main: ✅ RAG pipeline cargado correctamente
+2026-04-11 14:08:57,709 [INFO] api.routes: Consulta recibida: '¿Cuál es la jornada máxima de trabajo semanal?...'
+2026-04-11 14:08:59,609 [INFO] llm.salamandra_client: Generando respuesta (1579 tokens entrada, modo=cpu)...
+2026-04-11 14:09:25,275 [INFO] llm.salamandra_client: Respuesta generada | tokens=1579+14 | latencia=25626ms
+2026-04-11 14:26:28,327 [INFO] api.main: Cerrando servidor...
+2026-04-11 14:26:29,147 [INFO] api.main: ✅ Servidor cerrado limpiamente
+2026-04-11 14:26:43,167 [INFO] api.main: ============================================================
+2026-04-11 14:26:43,167 [INFO] api.main:   Iniciando Asistente Jurídico-Laboral BOE
+2026-04-11 14:26:43,167 [INFO] api.main: ============================================================
+2026-04-11 14:26:43,167 [INFO] api.main: Backend LLM: salamandra
+2026-04-11 14:26:43,167 [INFO] api.main: Top-K retrieval: 5
+2026-04-11 14:26:43,167 [INFO] llm.rag_chain: Inicializando RAGChain (backend=salamandra)...
+2026-04-11 14:26:43,167 [INFO] retriever.hybrid_retriever: Inicializando HybridRetriever...
+2026-04-11 14:26:43,173 [INFO] retriever.vector_store: Índice FAISS cargado: 681 vectores
+2026-04-11 14:26:43,195 [INFO] retriever.vector_store: Chunks cargados: 681
+2026-04-11 14:26:43,213 [INFO] retriever.bm25_retriever: Construyendo índice BM25 sobre 681 chunks...
+2026-04-11 14:26:43,325 [INFO] retriever.bm25_retriever: Índice BM25 construido correctamente.
+2026-04-11 14:26:43,326 [INFO] embeddings.embedding_manager: Cargando modelo desde ruta local: ./models/bge-m3-legal-spanish
+2026-04-11 14:26:43,326 [INFO] embeddings.embedding_manager: Dispositivo: cpu | Batch size: 4
+2026-04-11 14:26:43,328 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: ./models/bge-m3-legal-spanish
+2026-04-11 14:26:45,058 [INFO] embeddings.embedding_manager: Modelo cargado. Dimensión: 1024
+2026-04-11 14:26:45,059 [INFO] retriever.hybrid_retriever: HybridRetriever listo.
+2026-04-11 14:26:45,059 [INFO] llm.salamandra_client: GPU no disponible. Modo: CPU (inferencia lenta)
+2026-04-11 14:26:45,059 [INFO] llm.salamandra_client: Cargando desde ruta local: ./models/salamandra-2b-instruct
+2026-04-11 14:26:45,059 [INFO] llm.salamandra_client: Cargando tokenizador...
+2026-04-11 14:26:45,821 [WARNING] llm.salamandra_client: Cargando en CPU. La inferencia será lenta (2-5 minutos por respuesta). Considere usar la API de OpenAI si necesita velocidad.
+2026-04-11 14:26:53,002 [INFO] llm.salamandra_client: ✅ Salamandra-7B cargado y listo.
+2026-04-11 14:26:53,005 [INFO] llm.rag_chain: ✅ RAGChain lista. Backend: salamandra
+2026-04-11 14:26:53,008 [INFO] api.main: ✅ RAG pipeline cargado correctamente
+2026-04-11 14:30:10,775 [INFO] api.main: Cerrando servidor...
+2026-04-11 14:30:11,140 [INFO] api.main: ✅ Servidor cerrado limpiamente
+2026-04-11 14:30:26,356 [INFO] api.main: ============================================================
+2026-04-11 14:30:26,356 [INFO] api.main:   Iniciando Asistente Jurídico-Laboral BOE
+2026-04-11 14:30:26,357 [INFO] api.main: ============================================================
+2026-04-11 14:30:26,357 [INFO] api.main: Backend LLM: salamandra
+2026-04-11 14:30:26,357 [INFO] api.main: Top-K retrieval: 5
+2026-04-11 14:30:26,357 [INFO] llm.rag_chain: Inicializando RAGChain (backend=salamandra)...
+2026-04-11 14:30:26,357 [INFO] retriever.hybrid_retriever: Inicializando HybridRetriever...
+2026-04-11 14:30:26,363 [INFO] retriever.vector_store: Índice FAISS cargado: 681 vectores
+2026-04-11 14:30:26,384 [INFO] retriever.vector_store: Chunks cargados: 681
+2026-04-11 14:30:26,403 [INFO] retriever.bm25_retriever: Construyendo índice BM25 sobre 681 chunks...
+2026-04-11 14:30:26,483 [INFO] retriever.bm25_retriever: Índice BM25 construido correctamente.
+2026-04-11 14:30:26,485 [INFO] embeddings.embedding_manager: Cargando modelo desde ruta local: ./models/bge-m3-legal-spanish
+2026-04-11 14:30:26,485 [INFO] embeddings.embedding_manager: Dispositivo: cpu | Batch size: 4
+2026-04-11 14:30:26,487 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: ./models/bge-m3-legal-spanish
+2026-04-11 14:30:28,276 [INFO] embeddings.embedding_manager: Modelo cargado. Dimensión: 1024
+2026-04-11 14:30:28,276 [INFO] retriever.hybrid_retriever: HybridRetriever listo.
+2026-04-11 14:30:28,276 [INFO] llm.salamandra_client: GPU no disponible. Modo: CPU (inferencia lenta)
+2026-04-11 14:30:28,277 [INFO] llm.salamandra_client: Cargando desde ruta local: ./models/salamandra-2b-instruct
+2026-04-11 14:30:28,277 [INFO] llm.salamandra_client: Cargando tokenizador...
+2026-04-11 14:30:29,016 [WARNING] llm.salamandra_client: Cargando en CPU. La inferencia será lenta (2-5 minutos por respuesta). Considere usar la API de OpenAI si necesita velocidad.
+2026-04-11 14:30:35,069 [INFO] llm.salamandra_client: ✅ Salamandra-7B cargado y listo.
+2026-04-11 14:30:35,070 [INFO] llm.rag_chain: ✅ RAGChain lista. Backend: salamandra
+2026-04-11 14:30:35,073 [INFO] api.main: ✅ RAG pipeline cargado correctamente
+2026-04-11 14:33:50,616 [INFO] api.main: Cerrando servidor...
+2026-04-11 14:33:51,251 [INFO] api.main: ✅ Servidor cerrado limpiamente
+2026-04-11 14:34:03,500 [INFO] api.main: ============================================================
+2026-04-11 14:34:03,500 [INFO] api.main:   Iniciando Asistente Jurídico-Laboral BOE
+2026-04-11 14:34:03,500 [INFO] api.main: ============================================================
+2026-04-11 14:34:03,500 [INFO] api.main: Backend LLM: salamandra
+2026-04-11 14:34:03,500 [INFO] api.main: Top-K retrieval: 5
+2026-04-11 14:34:03,500 [INFO] llm.rag_chain: Inicializando RAGChain (backend=salamandra)...
+2026-04-11 14:34:03,500 [INFO] retriever.hybrid_retriever: Inicializando HybridRetriever...
+2026-04-11 14:34:03,504 [INFO] retriever.vector_store: Índice FAISS cargado: 681 vectores
+2026-04-11 14:34:03,532 [INFO] retriever.vector_store: Chunks cargados: 681
+2026-04-11 14:34:03,555 [INFO] retriever.bm25_retriever: Construyendo índice BM25 sobre 681 chunks...
+2026-04-11 14:34:03,694 [INFO] retriever.bm25_retriever: Índice BM25 construido correctamente.
+2026-04-11 14:34:03,696 [INFO] embeddings.embedding_manager: Cargando modelo desde ruta local: ./models/bge-m3-legal-spanish
+2026-04-11 14:34:03,696 [INFO] embeddings.embedding_manager: Dispositivo: cpu | Batch size: 4
+2026-04-11 14:34:03,698 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: ./models/bge-m3-legal-spanish
+2026-04-11 14:34:06,177 [INFO] embeddings.embedding_manager: Modelo cargado. Dimensión: 1024
+2026-04-11 14:34:06,177 [INFO] retriever.hybrid_retriever: HybridRetriever listo.
+2026-04-11 14:34:06,177 [INFO] llm.salamandra_client: GPU no disponible. Modo: CPU (inferencia lenta)
+2026-04-11 14:34:06,178 [INFO] llm.salamandra_client: Cargando desde ruta local: ./models/salamandra-2b-instruct
+2026-04-11 14:34:06,178 [INFO] llm.salamandra_client: Cargando tokenizador...
+2026-04-11 14:34:07,106 [WARNING] llm.salamandra_client: Cargando en CPU. La inferencia será lenta (2-5 minutos por respuesta). Considere usar la API de OpenAI si necesita velocidad.
+2026-04-11 14:34:16,268 [INFO] llm.salamandra_client: ✅ Salamandra-7B cargado y listo.
+2026-04-11 14:34:16,269 [INFO] llm.rag_chain: ✅ RAGChain lista. Backend: salamandra
+2026-04-11 14:34:16,270 [INFO] api.main: ✅ RAG pipeline cargado correctamente
+2026-04-11 14:35:17,116 [INFO] api.routes: Consulta recibida: '¿Cuál es la jornada máxima de trabajo semanal en España?...'
+2026-04-11 14:35:19,031 [INFO] llm.salamandra_client: Generando respuesta (1581 tokens entrada, modo=cpu)...
+2026-04-11 14:35:47,448 [INFO] llm.salamandra_client: Respuesta generada | tokens=1581+16 | latencia=28405ms
+2026-04-11 14:36:18,392 [INFO] api.routes: Consulta recibida: '¿Cuáles son las causas del despido disciplinario?...'
+2026-04-11 14:36:18,794 [INFO] llm.salamandra_client: Generando respuesta (1616 tokens entrada, modo=cpu)...
+2026-04-11 14:39:27,154 [INFO] llm.salamandra_client: Respuesta generada | tokens=1616+384 | latencia=188360ms
+2026-04-11 15:01:02,574 [INFO] api.main: Cerrando servidor...
+2026-04-11 15:01:03,500 [INFO] api.main: ✅ Servidor cerrado limpiamente
+2026-04-11 15:01:43,397 [INFO] api.main: ============================================================
+2026-04-11 15:01:43,397 [INFO] api.main:   Iniciando Asistente Jurídico-Laboral BOE
+2026-04-11 15:01:43,398 [INFO] api.main: ============================================================
+2026-04-11 15:01:43,398 [INFO] api.main: Backend LLM: salamandra
+2026-04-11 15:01:43,398 [INFO] api.main: Top-K retrieval: 5
+2026-04-11 15:01:43,398 [INFO] llm.rag_chain: Inicializando RAGChain (backend=salamandra)...
+2026-04-11 15:01:43,398 [INFO] retriever.hybrid_retriever: Inicializando HybridRetriever...
+2026-04-11 15:01:43,407 [INFO] retriever.vector_store: Índice FAISS cargado: 681 vectores
+2026-04-11 15:01:43,446 [INFO] retriever.vector_store: Chunks cargados: 681
+2026-04-11 15:01:43,477 [INFO] retriever.bm25_retriever: Construyendo índice BM25 sobre 681 chunks...
+2026-04-11 15:01:43,619 [INFO] retriever.bm25_retriever: Índice BM25 construido correctamente.
+2026-04-11 15:01:43,622 [INFO] embeddings.embedding_manager: Cargando modelo desde ruta local: ./models/bge-m3-legal-spanish
+2026-04-11 15:01:43,622 [INFO] embeddings.embedding_manager: Dispositivo: cpu | Batch size: 4
+2026-04-11 15:01:43,625 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: ./models/bge-m3-legal-spanish
+2026-04-11 15:01:45,954 [INFO] embeddings.embedding_manager: Modelo cargado. Dimensión: 1024
+2026-04-11 15:01:45,955 [INFO] retriever.hybrid_retriever: HybridRetriever listo.
+2026-04-11 15:01:45,955 [INFO] llm.salamandra_client: GPU no disponible. Modo: CPU (inferencia lenta)
+2026-04-11 15:01:45,955 [INFO] llm.salamandra_client: Cargando desde ruta local: ./models/salamandra-2b-instruct
+2026-04-11 15:01:45,955 [INFO] llm.salamandra_client: Cargando tokenizador...
+2026-04-11 15:01:46,982 [WARNING] llm.salamandra_client: Cargando en CPU. La inferencia será lenta (2-5 minutos por respuesta). Considere usar la API de OpenAI si necesita velocidad.
+2026-04-11 15:01:56,446 [INFO] llm.salamandra_client: ✅ Salamandra-7B cargado y listo.
+2026-04-11 15:01:56,449 [INFO] llm.rag_chain: ✅ RAGChain lista. Backend: salamandra
+2026-04-11 15:01:56,451 [INFO] api.main: ✅ RAG pipeline cargado correctamente
+2026-04-11 15:02:05,983 [INFO] api.routes: Consulta recibida: '¿Cuál es la jornada máxima de trabajo semanal en España?'
+2026-04-11 15:02:07,923 [INFO] llm.salamandra_client: Generando respuesta (1581 tokens entrada, modo=cpu)...
+2026-04-11 15:02:36,128 [INFO] llm.salamandra_client: Respuesta generada | tokens=1581+16 | latencia=28198ms
+2026-04-11 15:04:51,970 [INFO] api.main: Cerrando servidor...
+2026-04-11 15:04:52,621 [INFO] api.main: ✅ Servidor cerrado limpiamente

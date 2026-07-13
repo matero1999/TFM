@@ -1,0 +1,26 @@
+2026-04-01 19:16:28,672 [INFO] 
+────────────────────────────────────────────────────────────
+2026-04-01 19:16:28,672 [INFO] Procesando: Estatuto de los Trabajadores (ET)
+2026-04-01 19:16:28,672 [INFO] ID BOE:     BOE-A-2015-11430
+2026-04-01 19:24:30,168 [INFO] 
+────────────────────────────────────────────────────────────
+2026-04-01 19:24:30,168 [INFO] Procesando: Estatuto de los Trabajadores (ET)
+2026-04-01 19:24:30,168 [INFO] ID BOE:     BOE-A-2015-11430
+2026-04-01 19:24:35,129 [INFO] Bloques encontrados: 178
+2026-04-01 19:29:16,746 [INFO] ✅ 142 chunks extraídos
+2026-04-01 19:29:16,747 [INFO] 
+────────────────────────────────────────────────────────────
+2026-04-01 19:29:16,747 [INFO] Procesando: Ley General de la Seguridad Social (LGSS)
+2026-04-01 19:29:16,748 [INFO] ID BOE:     BOE-A-2015-11724
+2026-04-01 19:29:21,806 [INFO] Bloques encontrados: 627
+2026-04-01 19:46:35,597 [INFO] ✅ 508 chunks extraídos
+2026-04-01 19:46:35,598 [INFO] 
+────────────────────────────────────────────────────────────
+2026-04-01 19:46:35,598 [INFO] Procesando: RDL 32/2021 - Reforma Laboral
+2026-04-01 19:46:35,598 [INFO] ID BOE:     BOE-A-2021-21788
+2026-04-01 19:46:40,248 [INFO] Bloques encontrados: 34
+2026-04-01 19:47:34,593 [INFO] ✅ 31 chunks extraídos
+2026-04-01 19:47:34,594 [INFO] 
+============================================================
+2026-04-01 19:47:34,595 [INFO] Corpus completo: 681 chunks totales
+2026-04-01 19:47:34,595 [INFO] Índice guardado: data\corpus\index.json

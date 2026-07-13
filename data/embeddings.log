@@ -1,0 +1,47 @@
+2026-04-08 10:59:00,140 [INFO] Cargando 681 chunks desde data\corpus\processed...
+2026-04-08 10:59:04,825 [INFO] Chunks cargados correctamente: 681
+2026-04-08 11:05:29,522 [INFO] Cargando 681 chunks desde data\corpus\processed...
+2026-04-08 11:05:29,571 [INFO] Chunks cargados correctamente: 681
+2026-04-08 11:05:29,571 [INFO] Modelo local encontrado: ./models/bge-m3-legal-spanish
+2026-04-08 11:06:07,693 [INFO] Cargando 681 chunks desde data\corpus\processed...
+2026-04-08 11:06:07,742 [INFO] Chunks cargados correctamente: 681
+2026-04-08 11:06:07,743 [INFO] Modelo local encontrado: ./models/bge-m3-legal-spanish
+2026-04-08 11:06:07,745 [INFO] Cargando modelo desde ruta local: ./models/bge-m3-legal-spanish
+2026-04-08 11:06:07,745 [INFO] Dispositivo: cpu | Batch size: 8
+2026-04-08 11:06:07,745 [INFO] Load pretrained SentenceTransformer: ./models/bge-m3-legal-spanish
+2026-04-08 11:06:09,744 [INFO] Modelo cargado. Dimensión: 1024
+2026-04-08 11:09:28,953 [INFO] Cargando 681 chunks desde data\corpus\processed...
+2026-04-08 11:09:29,004 [INFO] Chunks cargados correctamente: 681
+2026-04-08 11:09:29,004 [INFO] Modelo local encontrado: ./models/bge-m3-legal-spanish
+2026-04-08 11:09:29,005 [INFO] Cargando modelo desde ruta local: ./models/bge-m3-legal-spanish
+2026-04-08 11:09:29,005 [INFO] Dispositivo: cpu | Batch size: 8
+2026-04-08 11:09:29,005 [INFO] Load pretrained SentenceTransformer: ./models/bge-m3-legal-spanish
+2026-04-08 11:09:30,680 [INFO] Modelo cargado. Dimensión: 1024
+2026-04-08 11:09:30,680 [INFO] Generando embeddings para 681 chunks...
+2026-04-08 11:31:24,254 [INFO] Embeddings generados: shape=(681, 1024)
+2026-04-08 11:42:42,287 [INFO] Cargando 681 chunks desde data\corpus\processed...
+2026-04-08 11:42:42,479 [INFO] Chunks cargados correctamente: 681
+2026-04-08 11:42:42,479 [INFO] Modelo local encontrado: ./models/bge-m3-legal-spanish
+2026-04-08 11:42:42,479 [INFO] Cargando modelo desde ruta local: ./models/bge-m3-legal-spanish
+2026-04-08 11:42:42,479 [INFO] Dispositivo: cpu | Batch size: 8
+2026-04-08 11:42:42,479 [INFO] Load pretrained SentenceTransformer: ./models/bge-m3-legal-spanish
+2026-04-08 11:42:44,138 [INFO] Modelo cargado. Dimensión: 1024
+2026-04-08 11:42:44,138 [INFO] Generando embeddings para 681 chunks...
+2026-04-08 12:05:42,074 [INFO] Embeddings generados: shape=(681, 1024)
+2026-04-08 12:05:42,078 [INFO] Construyendo índice FAISS (IndexFlatIP, dim=1024)...
+2026-04-08 12:05:42,081 [INFO] Índice construido. Vectores indexados: 681
+2026-04-08 12:33:53,693 [INFO] Cargando 681 chunks desde data\corpus\processed...
+2026-04-08 12:33:53,900 [INFO] Chunks cargados correctamente: 681
+2026-04-08 12:33:53,900 [INFO] Modelo local encontrado: ./models/bge-m3-legal-spanish
+2026-04-08 12:33:53,900 [INFO] Cargando modelo desde ruta local: ./models/bge-m3-legal-spanish
+2026-04-08 12:33:53,900 [INFO] Dispositivo: cpu | Batch size: 4
+2026-04-08 12:33:53,900 [INFO] Load pretrained SentenceTransformer: ./models/bge-m3-legal-spanish
+2026-04-08 12:33:55,657 [INFO] Modelo cargado. Dimensión: 1024
+2026-04-08 12:33:55,657 [INFO] Generando embeddings para 681 chunks...
+2026-04-08 12:51:35,355 [INFO] Embeddings generados: shape=(681, 1024)
+2026-04-08 12:51:35,355 [INFO] Construyendo índice FAISS (IndexFlatIP, dim=1024)...
+2026-04-08 12:51:35,361 [INFO] Índice construido. Vectores indexados: 681
+2026-04-08 12:51:35,753 [INFO] Guardando artefactos en disco...
+2026-04-08 12:51:35,757 [INFO] Embeddings guardados: (681, 1024) → data\embeddings\corpus_embeddings.npy
+2026-04-08 12:51:35,793 [INFO] Chunks guardados: data\embeddings\corpus_chunks.json
+2026-04-08 12:51:35,796 [INFO] Índice FAISS guardado: data\embeddings\faiss_index.bin
