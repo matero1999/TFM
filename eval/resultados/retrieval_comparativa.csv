@@ -1,0 +1,4 @@
+﻿Modo de Recuperación,Precision@1,Recall@5,MRR,Acierto Top-5,Latencia Media (ms),Consultas Válidas
+Densa pura (FAISS + BGE-M3),0.6667,1.0,0.8056,100.0%,464.63,6/6
+Léxica pura (BM25Okapi),0.1667,0.8333,0.4444,83.3%,2.07,6/6
+Híbrida RRF (Densa + Léxica),0.6667,1.0,0.8333,100.0%,185.71,6/6

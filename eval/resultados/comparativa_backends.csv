@@ -1,0 +1,3 @@
+Backend,Faithfulness,Context Precision,Context Recall,Answer Relevancy,Coste Total ($),Latencia Media (ms),Tokens Totales,Tasa Éxito (%)
+OPENAI,0.7376,0.9722,1.0,0.2166,0.00788,5019.67,26790,100.0
+SALAMANDRA,0.7576,0.9639,1.0,0.8863,0.0,41452.5,9906,100.0

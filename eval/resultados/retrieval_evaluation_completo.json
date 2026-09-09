@@ -1,0 +1,1158 @@
+{
+  "fecha_ejecucion": "2026-09-09 21:23:29",
+  "modos_evaluados": [
+    "denso",
+    "bm25",
+    "hibrido"
+  ],
+  "modos_no_disponibles": [],
+  "metricas_agregadas": {
+    "denso": {
+      "total_consultas": 6,
+      "consultas_exitosas": 6,
+      "precision_at_1": 0.6667,
+      "recall_at_5": 1.0,
+      "mrr": 0.8056,
+      "latencia_media_ms": 464.63,
+      "tasa_acierto_top5": 1.0
+    },
+    "bm25": {
+      "total_consultas": 6,
+      "consultas_exitosas": 6,
+      "precision_at_1": 0.1667,
+      "recall_at_5": 0.8333,
+      "mrr": 0.4444,
+      "latencia_media_ms": 2.07,
+      "tasa_acierto_top5": 0.8333
+    },
+    "hibrido": {
+      "total_consultas": 6,
+      "consultas_exitosas": 6,
+      "precision_at_1": 0.6667,
+      "recall_at_5": 1.0,
+      "mrr": 0.8333,
+      "latencia_media_ms": 185.71,
+      "tasa_acierto_top5": 1.0
+    }
+  },
+  "detalle_por_modo": {
+    "denso": [
+      {
+        "id_pregunta": 1,
+        "query": "¿Cuántas horas semanales puede trabajar un empleado a tiempo completo?",
+        "norma_principal": "Estatuto de los Trabajadores (ET)",
+        "modo": "denso",
+        "precision_at_1": 0.0,
+        "recall_at_5": 1.0,
+        "hits_at_k": [
+          false,
+          true,
+          false,
+          false,
+          false
+        ],
+        "total_hits_top5": 1,
+        "posicion_primer_acierto": 2,
+        "latencia_ms": 1843.91,
+        "chunks_recuperados_resumen": [
+          {
+            "posicion": 1,
+            "id": "BOE-A-2015-11430_a12_839c5784",
+            "titulo": "Artículo 12",
+            "es_relevante": false,
+            "preview": "Artículo 12. Contrato a tiempo parcial y contrato de relevo. 1. El contrato de trabajo se entenderá celebrado a tiempo p"
+          },
+          {
+            "posicion": 2,
+            "id": "BOE-A-2015-11430_a34_e81e11f4",
+            "titulo": "Artículo 34",
+            "es_relevante": true,
+            "preview": "Artículo 34. Jornada. 1. La duración de la jornada de trabajo será la pactada en los convenios colectivos o contratos de"
+          },
+          {
+            "posicion": 3,
+            "id": "BOE-A-2015-11430_a47_de067684",
+            "titulo": "Artículo 47",
+            "es_relevante": false,
+            "preview": "Artículo 47. Suspensión del contrato o reducción de jornada por causas económicas, técnicas, organizativas o de producci"
+          },
+          {
+            "posicion": 4,
+            "id": "BOE-A-2015-11430_a37_9ef78d7d",
+            "titulo": "Artículo 37",
+            "es_relevante": false,
+            "preview": "Artículo 37. Descanso semanal, fiestas y permisos. 1. Los trabajadores tendrán derecho a un descanso mínimo semanal, acu"
+          },
+          {
+            "posicion": 5,
+            "id": "BOE-A-2021-21788_da-6_b1e646dd",
+            "titulo": "Disposición adicional sexta",
+            "es_relevante": false,
+            "preview": "Disposición adicional sexta. Cómputo estadístico de las personas trabajadoras a las que se les aplica la regulación prev"
+          }
+        ],
+        "error": null
+      },
+      {
+        "id_pregunta": 2,
+        "query": "¿Cuánto dura el período de prueba en un contrato indefinido?",
+        "norma_principal": "Estatuto de los Trabajadores (ET)",
+        "modo": "denso",
+        "precision_at_1": 1.0,
+        "recall_at_5": 1.0,
+        "hits_at_k": [
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "total_hits_top5": 1,
+        "posicion_primer_acierto": 1,
+        "latencia_ms": 194.06,
+        "chunks_recuperados_resumen": [
+          {
+            "posicion": 1,
+            "id": "BOE-A-2015-11430_a14_164d5e41",
+            "titulo": "Artículo 14",
+            "es_relevante": true,
+            "preview": "Artículo 14. Periodo de prueba. 1. Podrá concertarse por escrito un periodo de prueba, con sujeción a los límites de dur"
+          },
+          {
+            "posicion": 2,
+            "id": "BOE-A-2021-21788_dt-4_15c15edd",
+            "titulo": "Disposición transitoria cuarta",
+            "es_relevante": false,
+            "preview": "Disposición transitoria cuarta. Régimen transitorio aplicable a los contratos de duración determinada celebrados desde e"
+          },
+          {
+            "posicion": 3,
+            "id": "BOE-A-2021-21788_dt-3_c6bf69fc",
+            "titulo": "Disposición transitoria tercera",
+            "es_relevante": false,
+            "preview": "Disposición transitoria tercera. Régimen transitorio aplicable a los contratos de duración determinada celebrados antes "
+          },
+          {
+            "posicion": 4,
+            "id": "BOE-A-2021-21788_dt_ef5823da",
+            "titulo": "Disposición transitoria primera",
+            "es_relevante": false,
+            "preview": "Disposición transitoria primera. Régimen transitorio aplicable a los contratos formativos vigentes. Los contratos en prá"
+          },
+          {
+            "posicion": 5,
+            "id": "BOE-A-2021-21788_da-4_a3f25965",
+            "titulo": "Disposición adicional cuarta",
+            "es_relevante": false,
+            "preview": "Disposición adicional cuarta. Régimen aplicable al personal laboral del sector público. Los contratos por tiempo indefin"
+          }
+        ],
+        "error": null
+      },
+      {
+        "id_pregunta": 3,
+        "query": "¿Qué causas justifican un despido disciplinario?",
+        "norma_principal": "Estatuto de los Trabajadores (ET)",
+        "modo": "denso",
+        "precision_at_1": 1.0,
+        "recall_at_5": 1.0,
+        "hits_at_k": [
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "total_hits_top5": 1,
+        "posicion_primer_acierto": 1,
+        "latencia_ms": 179.08,
+        "chunks_recuperados_resumen": [
+          {
+            "posicion": 1,
+            "id": "BOE-A-2015-11430_a54_c2abe1ba",
+            "titulo": "Artículo 54",
+            "es_relevante": true,
+            "preview": "Artículo 54. Despido disciplinario. 1. El contrato de trabajo podrá extinguirse por decisión del empresario, mediante de"
+          },
+          {
+            "posicion": 2,
+            "id": "BOE-A-2015-11430_a55_ec15c581",
+            "titulo": "Artículo 55",
+            "es_relevante": false,
+            "preview": "Artículo 55. Forma y efectos del despido disciplinario. 1. El despido deberá ser notificado por escrito al trabajador, h"
+          },
+          {
+            "posicion": 3,
+            "id": "BOE-A-2015-11430_dadecimosexta_07f912e1",
+            "titulo": "Disposición adicional decimosexta",
+            "es_relevante": false,
+            "preview": "Disposición adicional decimosexta. Aplicación del despido por causas económicas, técnicas, organizativas o de producción"
+          },
+          {
+            "posicion": 4,
+            "id": "BOE-A-2015-11430_a50_c06f276a",
+            "titulo": "Artículo 50",
+            "es_relevante": false,
+            "preview": "Artículo 50. Extinción por voluntad del trabajador. 1. Serán causas justas para que el trabajador pueda solicitar la ext"
+          },
+          {
+            "posicion": 5,
+            "id": "BOE-A-2015-11430_a51_4b727832",
+            "titulo": "Artículo 51",
+            "es_relevante": false,
+            "preview": "Artículo 51. Despido colectivo. 1. A efectos de lo dispuesto en esta ley se entenderá por despido colectivo la extinción"
+          }
+        ],
+        "error": null
+      },
+      {
+        "id_pregunta": 4,
+        "query": "¿Cuándo tiene derecho un trabajador a la prestación por incapacidad temporal?",
+        "norma_principal": "Ley General de la Seguridad Social (LGSS)",
+        "modo": "denso",
+        "precision_at_1": 1.0,
+        "recall_at_5": 1.0,
+        "hits_at_k": [
+          true,
+          false,
+          true,
+          false,
+          true
+        ],
+        "total_hits_top5": 3,
+        "posicion_primer_acierto": 1,
+        "latencia_ms": 184.97,
+        "chunks_recuperados_resumen": [
+          {
+            "posicion": 1,
+            "id": "BOE-A-2015-11724_a283_4dda8903",
+            "titulo": "Artículo 283",
+            "es_relevante": true,
+            "preview": "Artículo 283. Prestación por desempleo e incapacidad temporal. 1. Cuando el trabajador se encuentre en situación de inca"
+          },
+          {
+            "posicion": 2,
+            "id": "BOE-A-2015-11724_a321_83c1e906",
+            "titulo": "Artículo 321",
+            "es_relevante": false,
+            "preview": "Artículo 321. Nacimiento y cuantía de la prestación de incapacidad temporal. 1. Para los trabajadores incluidos en este "
+          },
+          {
+            "posicion": 3,
+            "id": "BOE-A-2015-11724_a172_9f3f19d6",
+            "titulo": "Artículo 172",
+            "es_relevante": true,
+            "preview": "Artículo 172. Beneficiarios. Serán beneficiarios del subsidio por incapacidad temporal las personas incluidas en este Ré"
+          },
+          {
+            "posicion": 4,
+            "id": "BOE-A-2015-11724_a193_9fb849ca",
+            "titulo": "Artículo 193",
+            "es_relevante": false,
+            "preview": "Artículo 193. Concepto. 1. La incapacidad permanente contributiva es la situación del trabajador que, después de haber e"
+          },
+          {
+            "posicion": 5,
+            "id": "BOE-A-2015-11724_a169_ac440844",
+            "titulo": "Artículo 169",
+            "es_relevante": true,
+            "preview": "Artículo 169. Concepto. 1. Tendrán la consideración de situaciones determinantes de incapacidad temporal: a) Las debidas"
+          }
+        ],
+        "error": null
+      },
+      {
+        "id_pregunta": 5,
+        "query": "¿Cuánto cobra un trabajador en situación de desempleo?",
+        "norma_principal": "Ley General de la Seguridad Social (LGSS)",
+        "modo": "denso",
+        "precision_at_1": 0.0,
+        "recall_at_5": 1.0,
+        "hits_at_k": [
+          false,
+          false,
+          true,
+          false,
+          false
+        ],
+        "total_hits_top5": 1,
+        "posicion_primer_acierto": 3,
+        "latencia_ms": 192.45,
+        "chunks_recuperados_resumen": [
+          {
+            "posicion": 1,
+            "id": "BOE-A-2015-11724_a267_9efd0978",
+            "titulo": "Artículo 267",
+            "es_relevante": false,
+            "preview": "Artículo 267. Situación legal de desempleo. 1. Se encontrarán en situación legal de desempleo los trabajadores que estén"
+          },
+          {
+            "posicion": 2,
+            "id": "BOE-A-2015-11724_a278_806386a3",
+            "titulo": "Artículo 278",
+            "es_relevante": false,
+            "preview": "Artículo 278. Cuantía del subsidio. 1. La cuantía del subsidio por desempleo será igual al 80 por ciento del indicador p"
+          },
+          {
+            "posicion": 3,
+            "id": "BOE-A-2015-11724_a270_79624794",
+            "titulo": "Artículo 270",
+            "es_relevante": true,
+            "preview": "Artículo 270. Cuantía de la prestación por desempleo. 1. La base reguladora de la prestación por desempleo será el prome"
+          },
+          {
+            "posicion": 4,
+            "id": "BOE-A-2015-11724_dtvigesimaoctava_98fd7529",
+            "titulo": "Disposición transitoria vigésima octava",
+            "es_relevante": false,
+            "preview": "Disposición transitoria vigésima octava. Acreditación de determinadas situaciones legales de desempleo. La situación leg"
+          },
+          {
+            "posicion": 5,
+            "id": "BOE-A-2015-11724_a264_e38bee31",
+            "titulo": "Artículo 264",
+            "es_relevante": false,
+            "preview": "Artículo 264. Personas protegidas. 1. Estarán comprendidos en la protección por desempleo, siempre que tengan previsto c"
+          }
+        ],
+        "error": null
+      },
+      {
+        "id_pregunta": 6,
+        "query": "¿Qué derechos tienen los trabajadores en caso de huelga?",
+        "norma_principal": "Real Decreto-ley 17/1977 y Estatuto de los Trabajadores",
+        "modo": "denso",
+        "precision_at_1": 1.0,
+        "recall_at_5": 1.0,
+        "hits_at_k": [
+          true,
+          false,
+          true,
+          false,
+          false
+        ],
+        "total_hits_top5": 2,
+        "posicion_primer_acierto": 1,
+        "latencia_ms": 193.31,
+        "chunks_recuperados_resumen": [
+          {
+            "posicion": 1,
+            "id": "BOE-A-2015-11430_a4_06849a8a",
+            "titulo": "Artículo 4",
+            "es_relevante": true,
+            "preview": "Artículo 4. Derechos laborales. 1. Los trabajadores tienen como derechos básicos, con el contenido y alcance que para ca"
+          },
+          {
+            "posicion": 2,
+            "id": "BOE-A-2015-11724_a267_9efd0978",
+            "titulo": "Artículo 267",
+            "es_relevante": false,
+            "preview": "Artículo 267. Situación legal de desempleo. 1. Se encontrarán en situación legal de desempleo los trabajadores que estén"
+          },
+          {
+            "posicion": 3,
+            "id": "BOE-A-2015-11430_a64_97d8954e",
+            "titulo": "Artículo 64",
+            "es_relevante": true,
+            "preview": "Artículo 64. Derechos de información y consulta y competencias. 1. El comité de empresa tendrá derecho a ser informado y"
+          },
+          {
+            "posicion": 4,
+            "id": "BOE-A-2015-11430_a37_9ef78d7d",
+            "titulo": "Artículo 37",
+            "es_relevante": false,
+            "preview": "Artículo 37. Descanso semanal, fiestas y permisos. 1. Los trabajadores tendrán derecho a un descanso mínimo semanal, acu"
+          },
+          {
+            "posicion": 5,
+            "id": "BOE-A-2015-11430_a3_7ec148ed",
+            "titulo": "Artículo 3",
+            "es_relevante": false,
+            "preview": "Artículo 3. Fuentes de la relación laboral. 1. Los derechos y obligaciones concernientes a la relación laboral se regula"
+          }
+        ],
+        "error": null
+      }
+    ],
+    "bm25": [
+      {
+        "id_pregunta": 1,
+        "query": "¿Cuántas horas semanales puede trabajar un empleado a tiempo completo?",
+        "norma_principal": "Estatuto de los Trabajadores (ET)",
+        "modo": "bm25",
+        "precision_at_1": 0.0,
+        "recall_at_5": 1.0,
+        "hits_at_k": [
+          false,
+          false,
+          true,
+          false,
+          false
+        ],
+        "total_hits_top5": 1,
+        "posicion_primer_acierto": 3,
+        "latencia_ms": 2.98,
+        "chunks_recuperados_resumen": [
+          {
+            "posicion": 1,
+            "id": "BOE-A-2015-11430_a12_839c5784",
+            "titulo": "Artículo 12",
+            "es_relevante": false,
+            "preview": "Artículo 12. Contrato a tiempo parcial y contrato de relevo. 1. El contrato de trabajo se entenderá celebrado a tiempo p"
+          },
+          {
+            "posicion": 2,
+            "id": "BOE-A-2015-11724_a270_79624794",
+            "titulo": "Artículo 270",
+            "es_relevante": false,
+            "preview": "Artículo 270. Cuantía de la prestación por desempleo. 1. La base reguladora de la prestación por desempleo será el prome"
+          },
+          {
+            "posicion": 3,
+            "id": "BOE-A-2015-11430_a34_e81e11f4",
+            "titulo": "Artículo 34",
+            "es_relevante": true,
+            "preview": "Artículo 34. Jornada. 1. La duración de la jornada de trabajo será la pactada en los convenios colectivos o contratos de"
+          },
+          {
+            "posicion": 4,
+            "id": "BOE-A-2015-11724_da-35_636cf2f0",
+            "titulo": "Disposición adicional quincuagésima novena",
+            "es_relevante": false,
+            "preview": "Disposición adicional quincuagésima novena. Régimen de compatibilidad aplicable a las prestaciones por desempleo. 1. No "
+          },
+          {
+            "posicion": 5,
+            "id": "BOE-A-2015-11724_a248_0384ee6c",
+            "titulo": "Artículo 248",
+            "es_relevante": false,
+            "preview": "Artículo 248. Cuantía de las prestaciones económicas. 1. En la determinación de la base reguladora de las prestaciones e"
+          }
+        ],
+        "error": null
+      },
+      {
+        "id_pregunta": 2,
+        "query": "¿Cuánto dura el período de prueba en un contrato indefinido?",
+        "norma_principal": "Estatuto de los Trabajadores (ET)",
+        "modo": "bm25",
+        "precision_at_1": 0.0,
+        "recall_at_5": 1.0,
+        "hits_at_k": [
+          false,
+          true,
+          false,
+          false,
+          false
+        ],
+        "total_hits_top5": 1,
+        "posicion_primer_acierto": 2,
+        "latencia_ms": 2.1,
+        "chunks_recuperados_resumen": [
+          {
+            "posicion": 1,
+            "id": "BOE-A-2015-11430_a16_05fe4c6b",
+            "titulo": "Artículo 16",
+            "es_relevante": false,
+            "preview": "Artículo 16. Contrato fijo-discontinuo. 1. El contrato por tiempo indefinido fijo-discontinuo se concertará para realiza"
+          },
+          {
+            "posicion": 2,
+            "id": "BOE-A-2015-11430_a14_164d5e41",
+            "titulo": "Artículo 14",
+            "es_relevante": true,
+            "preview": "Artículo 14. Periodo de prueba. 1. Podrá concertarse por escrito un periodo de prueba, con sujeción a los límites de dur"
+          },
+          {
+            "posicion": 3,
+            "id": "BOE-A-2015-11430_a49_b5419fac",
+            "titulo": "Artículo 49",
+            "es_relevante": false,
+            "preview": "Artículo 49. Extinción del contrato. 1. El contrato de trabajo se extinguirá: a) Por mutuo acuerdo de las partes. b) Por"
+          },
+          {
+            "posicion": 4,
+            "id": "BOE-A-2015-11430_a8_8fdf2a2b",
+            "titulo": "Artículo 8",
+            "es_relevante": false,
+            "preview": "Artículo 8. Forma del contrato. 1. El contrato de trabajo se podrá celebrar por escrito o de palabra. Se presumirá exist"
+          },
+          {
+            "posicion": 5,
+            "id": "BOE-A-2015-11430_a52_7a8b83db",
+            "titulo": "Artículo 52",
+            "es_relevante": false,
+            "preview": "Artículo 52. Extinción del contrato por causas objetivas. El contrato podrá extinguirse: a) Por ineptitud del trabajador"
+          }
+        ],
+        "error": null
+      },
+      {
+        "id_pregunta": 3,
+        "query": "¿Qué causas justifican un despido disciplinario?",
+        "norma_principal": "Estatuto de los Trabajadores (ET)",
+        "modo": "bm25",
+        "precision_at_1": 0.0,
+        "recall_at_5": 1.0,
+        "hits_at_k": [
+          false,
+          false,
+          true,
+          false,
+          false
+        ],
+        "total_hits_top5": 1,
+        "posicion_primer_acierto": 3,
+        "latencia_ms": 1.49,
+        "chunks_recuperados_resumen": [
+          {
+            "posicion": 1,
+            "id": "BOE-A-2015-11430_dtundecima_2fc63527",
+            "titulo": "Disposición transitoria undécima",
+            "es_relevante": false,
+            "preview": "Disposición transitoria undécima. Indemnizaciones por despido improcedente. 1. La indemnización por despido prevista en "
+          },
+          {
+            "posicion": 2,
+            "id": "BOE-A-2015-11430_a55_ec15c581",
+            "titulo": "Artículo 55",
+            "es_relevante": false,
+            "preview": "Artículo 55. Forma y efectos del despido disciplinario. 1. El despido deberá ser notificado por escrito al trabajador, h"
+          },
+          {
+            "posicion": 3,
+            "id": "BOE-A-2015-11430_a54_c2abe1ba",
+            "titulo": "Artículo 54",
+            "es_relevante": true,
+            "preview": "Artículo 54. Despido disciplinario. 1. El contrato de trabajo podrá extinguirse por decisión del empresario, mediante de"
+          },
+          {
+            "posicion": 4,
+            "id": "BOE-A-2015-11430_a53_353636ad",
+            "titulo": "Artículo 53",
+            "es_relevante": false,
+            "preview": "Artículo 53. Forma y efectos de la extinción por causas objetivas. 1. La adopción del acuerdo de extinción al amparo de "
+          },
+          {
+            "posicion": 5,
+            "id": "BOE-A-2015-11430_dadecimosexta_07f912e1",
+            "titulo": "Disposición adicional decimosexta",
+            "es_relevante": false,
+            "preview": "Disposición adicional decimosexta. Aplicación del despido por causas económicas, técnicas, organizativas o de producción"
+          }
+        ],
+        "error": null
+      },
+      {
+        "id_pregunta": 4,
+        "query": "¿Cuándo tiene derecho un trabajador a la prestación por incapacidad temporal?",
+        "norma_principal": "Ley General de la Seguridad Social (LGSS)",
+        "modo": "bm25",
+        "precision_at_1": 0.0,
+        "recall_at_5": 1.0,
+        "hits_at_k": [
+          false,
+          true,
+          false,
+          false,
+          false
+        ],
+        "total_hits_top5": 1,
+        "posicion_primer_acierto": 2,
+        "latencia_ms": 1.96,
+        "chunks_recuperados_resumen": [
+          {
+            "posicion": 1,
+            "id": "BOE-A-2015-11724_a343_6973bef3",
+            "titulo": "Artículo 343",
+            "es_relevante": false,
+            "preview": "Artículo 343. Cese de actividad, incapacidad temporal, maternidad y paternidad. 1. En el supuesto en que el hecho causan"
+          },
+          {
+            "posicion": 2,
+            "id": "BOE-A-2015-11724_a283_4dda8903",
+            "titulo": "Artículo 283",
+            "es_relevante": true,
+            "preview": "Artículo 283. Prestación por desempleo e incapacidad temporal. 1. Cuando el trabajador se encuentre en situación de inca"
+          },
+          {
+            "posicion": 3,
+            "id": "BOE-A-2015-11724_a174_d675ce9b",
+            "titulo": "Artículo 174",
+            "es_relevante": false,
+            "preview": "Artículo 174. Extinción del derecho al subsidio. 1. El derecho al subsidio se extinguirá por el transcurso del plazo máx"
+          },
+          {
+            "posicion": 4,
+            "id": "BOE-A-2015-11724_a317_078af1f5",
+            "titulo": "Artículo 317",
+            "es_relevante": false,
+            "preview": "Artículo 317. Acción protectora de los trabajadores autónomos económicamente dependientes. De conformidad con lo previst"
+          },
+          {
+            "posicion": 5,
+            "id": "BOE-A-2015-11724_a195_e0e42cce",
+            "titulo": "Artículo 195",
+            "es_relevante": false,
+            "preview": "Artículo 195. Beneficiarios. 1. Tendrán derecho a las prestaciones por incapacidad permanente las personas incluidas en "
+          }
+        ],
+        "error": null
+      },
+      {
+        "id_pregunta": 5,
+        "query": "¿Cuánto cobra un trabajador en situación de desempleo?",
+        "norma_principal": "Ley General de la Seguridad Social (LGSS)",
+        "modo": "bm25",
+        "precision_at_1": 0.0,
+        "recall_at_5": 0.0,
+        "hits_at_k": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "total_hits_top5": 0,
+        "posicion_primer_acierto": null,
+        "latencia_ms": 1.74,
+        "chunks_recuperados_resumen": [
+          {
+            "posicion": 1,
+            "id": "BOE-A-2015-11724_a283_4dda8903",
+            "titulo": "Artículo 283",
+            "es_relevante": false,
+            "preview": "Artículo 283. Prestación por desempleo e incapacidad temporal. 1. Cuando el trabajador se encuentre en situación de inca"
+          },
+          {
+            "posicion": 2,
+            "id": "BOE-A-2015-11724_a284_bfe17bf6",
+            "titulo": "Artículo 284",
+            "es_relevante": false,
+            "preview": "Artículo 284. Prestación por desempleo, maternidad y paternidad. 1. Cuando el trabajador se encuentre en situación de ma"
+          },
+          {
+            "posicion": 3,
+            "id": "BOE-A-2015-11724_a267_9efd0978",
+            "titulo": "Artículo 267",
+            "es_relevante": false,
+            "preview": "Artículo 267. Situación legal de desempleo. 1. Se encontrarán en situación legal de desempleo los trabajadores que estén"
+          },
+          {
+            "posicion": 4,
+            "id": "BOE-A-2015-11724_a287_22253623",
+            "titulo": "Artículo 287",
+            "es_relevante": false,
+            "preview": "Artículo 287. Protección por desempleo de los trabajadores agrarios eventuales. 1. Será obligatoria la cotización por de"
+          },
+          {
+            "posicion": 5,
+            "id": "BOE-A-2015-11724_a266_b55e9d13",
+            "titulo": "Artículo 266",
+            "es_relevante": false,
+            "preview": "Artículo 266. Requisitos para el nacimiento del derecho a las prestaciones. Para tener derecho a las prestaciones por de"
+          }
+        ],
+        "error": null
+      },
+      {
+        "id_pregunta": 6,
+        "query": "¿Qué derechos tienen los trabajadores en caso de huelga?",
+        "norma_principal": "Real Decreto-ley 17/1977 y Estatuto de los Trabajadores",
+        "modo": "bm25",
+        "precision_at_1": 1.0,
+        "recall_at_5": 1.0,
+        "hits_at_k": [
+          true,
+          false,
+          false,
+          true,
+          false
+        ],
+        "total_hits_top5": 2,
+        "posicion_primer_acierto": 1,
+        "latencia_ms": 2.18,
+        "chunks_recuperados_resumen": [
+          {
+            "posicion": 1,
+            "id": "BOE-A-2015-11430_a4_06849a8a",
+            "titulo": "Artículo 4",
+            "es_relevante": true,
+            "preview": "Artículo 4. Derechos laborales. 1. Los trabajadores tienen como derechos básicos, con el contenido y alcance que para ca"
+          },
+          {
+            "posicion": 2,
+            "id": "BOE-A-2015-11430_a2-2_a553b6ab",
+            "titulo": "Artículo 20 bis",
+            "es_relevante": false,
+            "preview": "Artículo 20 bis. Derechos de los trabajadores a la intimidad en relación con el entorno digital y a la desconexión. Los "
+          },
+          {
+            "posicion": 3,
+            "id": "BOE-A-2015-11430_a13_1a5fc53d",
+            "titulo": "Artículo 13",
+            "es_relevante": false,
+            "preview": "Artículo 13. Trabajo a distancia. 1. Tendrá la consideración de trabajo a distancia aquel en que la prestación de la act"
+          },
+          {
+            "posicion": 4,
+            "id": "BOE-A-2015-11430_a61_f6aac466",
+            "titulo": "Artículo 61",
+            "es_relevante": true,
+            "preview": "Artículo 61. Participación. De conformidad con lo dispuesto en el artículo 4 y sin perjuicio de otras formas de particip"
+          },
+          {
+            "posicion": 5,
+            "id": "BOE-A-2015-11430_a23_772db508",
+            "titulo": "Artículo 23",
+            "es_relevante": false,
+            "preview": "Artículo 23. Promoción y formación profesional en el trabajo. 1. El trabajador tendrá derecho: a) Al disfrute de los per"
+          }
+        ],
+        "error": null
+      }
+    ],
+    "hibrido": [
+      {
+        "id_pregunta": 1,
+        "query": "¿Cuántas horas semanales puede trabajar un empleado a tiempo completo?",
+        "norma_principal": "Estatuto de los Trabajadores (ET)",
+        "modo": "hibrido",
+        "precision_at_1": 0.0,
+        "recall_at_5": 1.0,
+        "hits_at_k": [
+          false,
+          true,
+          false,
+          false,
+          false
+        ],
+        "total_hits_top5": 1,
+        "posicion_primer_acierto": 2,
+        "latencia_ms": 197.38,
+        "chunks_recuperados_resumen": [
+          {
+            "posicion": 1,
+            "id": "BOE-A-2015-11430_a12_839c5784",
+            "titulo": "Artículo 12",
+            "es_relevante": false,
+            "preview": "Artículo 12. Contrato a tiempo parcial y contrato de relevo. 1. El contrato de trabajo se entenderá celebrado a tiempo p"
+          },
+          {
+            "posicion": 2,
+            "id": "BOE-A-2015-11430_a34_e81e11f4",
+            "titulo": "Artículo 34",
+            "es_relevante": true,
+            "preview": "Artículo 34. Jornada. 1. La duración de la jornada de trabajo será la pactada en los convenios colectivos o contratos de"
+          },
+          {
+            "posicion": 3,
+            "id": "BOE-A-2015-11430_a36_0451a8d1",
+            "titulo": "Artículo 36",
+            "es_relevante": false,
+            "preview": "Artículo 36. Trabajo nocturno, trabajo a turnos y ritmo de trabajo. 1. A los efectos de lo dispuesto en esta ley, se con"
+          },
+          {
+            "posicion": 4,
+            "id": "BOE-A-2015-11430_a35_ac8b2c22",
+            "titulo": "Artículo 35",
+            "es_relevante": false,
+            "preview": "Artículo 35. Horas extraordinarias. 1. Tendrán la consideración de horas extraordinarias aquellas horas de trabajo que s"
+          },
+          {
+            "posicion": 5,
+            "id": "BOE-A-2015-11724_a245_67d368ea",
+            "titulo": "Artículo 245",
+            "es_relevante": false,
+            "preview": "Artículo 245. Protección social. 1. La protección social derivada de los contratos de trabajo a tiempo parcial se regirá"
+          }
+        ],
+        "error": null
+      },
+      {
+        "id_pregunta": 2,
+        "query": "¿Cuánto dura el período de prueba en un contrato indefinido?",
+        "norma_principal": "Estatuto de los Trabajadores (ET)",
+        "modo": "hibrido",
+        "precision_at_1": 1.0,
+        "recall_at_5": 1.0,
+        "hits_at_k": [
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "total_hits_top5": 1,
+        "posicion_primer_acierto": 1,
+        "latencia_ms": 180.56,
+        "chunks_recuperados_resumen": [
+          {
+            "posicion": 1,
+            "id": "BOE-A-2015-11430_a14_164d5e41",
+            "titulo": "Artículo 14",
+            "es_relevante": true,
+            "preview": "Artículo 14. Periodo de prueba. 1. Podrá concertarse por escrito un periodo de prueba, con sujeción a los límites de dur"
+          },
+          {
+            "posicion": 2,
+            "id": "BOE-A-2015-11430_a16_05fe4c6b",
+            "titulo": "Artículo 16",
+            "es_relevante": false,
+            "preview": "Artículo 16. Contrato fijo-discontinuo. 1. El contrato por tiempo indefinido fijo-discontinuo se concertará para realiza"
+          },
+          {
+            "posicion": 3,
+            "id": "BOE-A-2015-11430_a15_00cefce1",
+            "titulo": "Artículo 15",
+            "es_relevante": false,
+            "preview": "Artículo 15. Duración del contrato. 1. El contrato de trabajo podrá concertarse por tiempo indefinido o por una duración"
+          },
+          {
+            "posicion": 4,
+            "id": "BOE-A-2021-21788_da-4_a3f25965",
+            "titulo": "Disposición adicional cuarta",
+            "es_relevante": false,
+            "preview": "Disposición adicional cuarta. Régimen aplicable al personal laboral del sector público. Los contratos por tiempo indefin"
+          },
+          {
+            "posicion": 5,
+            "id": "BOE-A-2015-11430_a49_b5419fac",
+            "titulo": "Artículo 49",
+            "es_relevante": false,
+            "preview": "Artículo 49. Extinción del contrato. 1. El contrato de trabajo se extinguirá: a) Por mutuo acuerdo de las partes. b) Por"
+          }
+        ],
+        "error": null
+      },
+      {
+        "id_pregunta": 3,
+        "query": "¿Qué causas justifican un despido disciplinario?",
+        "norma_principal": "Estatuto de los Trabajadores (ET)",
+        "modo": "hibrido",
+        "precision_at_1": 1.0,
+        "recall_at_5": 1.0,
+        "hits_at_k": [
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "total_hits_top5": 1,
+        "posicion_primer_acierto": 1,
+        "latencia_ms": 175.17,
+        "chunks_recuperados_resumen": [
+          {
+            "posicion": 1,
+            "id": "BOE-A-2015-11430_a54_c2abe1ba",
+            "titulo": "Artículo 54",
+            "es_relevante": true,
+            "preview": "Artículo 54. Despido disciplinario. 1. El contrato de trabajo podrá extinguirse por decisión del empresario, mediante de"
+          },
+          {
+            "posicion": 2,
+            "id": "BOE-A-2015-11430_a55_ec15c581",
+            "titulo": "Artículo 55",
+            "es_relevante": false,
+            "preview": "Artículo 55. Forma y efectos del despido disciplinario. 1. El despido deberá ser notificado por escrito al trabajador, h"
+          },
+          {
+            "posicion": 3,
+            "id": "BOE-A-2015-11430_dtundecima_2fc63527",
+            "titulo": "Disposición transitoria undécima",
+            "es_relevante": false,
+            "preview": "Disposición transitoria undécima. Indemnizaciones por despido improcedente. 1. La indemnización por despido prevista en "
+          },
+          {
+            "posicion": 4,
+            "id": "BOE-A-2015-11430_dadecimosexta_07f912e1",
+            "titulo": "Disposición adicional decimosexta",
+            "es_relevante": false,
+            "preview": "Disposición adicional decimosexta. Aplicación del despido por causas económicas, técnicas, organizativas o de producción"
+          },
+          {
+            "posicion": 5,
+            "id": "BOE-A-2015-11430_a50_c06f276a",
+            "titulo": "Artículo 50",
+            "es_relevante": false,
+            "preview": "Artículo 50. Extinción por voluntad del trabajador. 1. Serán causas justas para que el trabajador pueda solicitar la ext"
+          }
+        ],
+        "error": null
+      },
+      {
+        "id_pregunta": 4,
+        "query": "¿Cuándo tiene derecho un trabajador a la prestación por incapacidad temporal?",
+        "norma_principal": "Ley General de la Seguridad Social (LGSS)",
+        "modo": "hibrido",
+        "precision_at_1": 1.0,
+        "recall_at_5": 1.0,
+        "hits_at_k": [
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "total_hits_top5": 1,
+        "posicion_primer_acierto": 1,
+        "latencia_ms": 195.29,
+        "chunks_recuperados_resumen": [
+          {
+            "posicion": 1,
+            "id": "BOE-A-2015-11724_a283_4dda8903",
+            "titulo": "Artículo 283",
+            "es_relevante": true,
+            "preview": "Artículo 283. Prestación por desempleo e incapacidad temporal. 1. Cuando el trabajador se encuentre en situación de inca"
+          },
+          {
+            "posicion": 2,
+            "id": "BOE-A-2015-11724_a343_6973bef3",
+            "titulo": "Artículo 343",
+            "es_relevante": false,
+            "preview": "Artículo 343. Cese de actividad, incapacidad temporal, maternidad y paternidad. 1. En el supuesto en que el hecho causan"
+          },
+          {
+            "posicion": 3,
+            "id": "BOE-A-2015-11724_a321_83c1e906",
+            "titulo": "Artículo 321",
+            "es_relevante": false,
+            "preview": "Artículo 321. Nacimiento y cuantía de la prestación de incapacidad temporal. 1. Para los trabajadores incluidos en este "
+          },
+          {
+            "posicion": 4,
+            "id": "BOE-A-2015-11724_a195_e0e42cce",
+            "titulo": "Artículo 195",
+            "es_relevante": false,
+            "preview": "Artículo 195. Beneficiarios. 1. Tendrán derecho a las prestaciones por incapacidad permanente las personas incluidas en "
+          },
+          {
+            "posicion": 5,
+            "id": "BOE-A-2015-11724_a174_d675ce9b",
+            "titulo": "Artículo 174",
+            "es_relevante": false,
+            "preview": "Artículo 174. Extinción del derecho al subsidio. 1. El derecho al subsidio se extinguirá por el transcurso del plazo máx"
+          }
+        ],
+        "error": null
+      },
+      {
+        "id_pregunta": 5,
+        "query": "¿Cuánto cobra un trabajador en situación de desempleo?",
+        "norma_principal": "Ley General de la Seguridad Social (LGSS)",
+        "modo": "hibrido",
+        "precision_at_1": 0.0,
+        "recall_at_5": 1.0,
+        "hits_at_k": [
+          false,
+          true,
+          false,
+          false,
+          false
+        ],
+        "total_hits_top5": 1,
+        "posicion_primer_acierto": 2,
+        "latencia_ms": 188.33,
+        "chunks_recuperados_resumen": [
+          {
+            "posicion": 1,
+            "id": "BOE-A-2015-11724_a267_9efd0978",
+            "titulo": "Artículo 267",
+            "es_relevante": false,
+            "preview": "Artículo 267. Situación legal de desempleo. 1. Se encontrarán en situación legal de desempleo los trabajadores que estén"
+          },
+          {
+            "posicion": 2,
+            "id": "BOE-A-2015-11724_a270_79624794",
+            "titulo": "Artículo 270",
+            "es_relevante": true,
+            "preview": "Artículo 270. Cuantía de la prestación por desempleo. 1. La base reguladora de la prestación por desempleo será el prome"
+          },
+          {
+            "posicion": 3,
+            "id": "BOE-A-2015-11724_a283_4dda8903",
+            "titulo": "Artículo 283",
+            "es_relevante": false,
+            "preview": "Artículo 283. Prestación por desempleo e incapacidad temporal. 1. Cuando el trabajador se encuentre en situación de inca"
+          },
+          {
+            "posicion": 4,
+            "id": "BOE-A-2015-11724_a269_0feec156",
+            "titulo": "Artículo 269",
+            "es_relevante": false,
+            "preview": "Artículo 269. Duración de la prestación por desempleo. 1. La duración de la prestación por desempleo estará en función d"
+          },
+          {
+            "posicion": 5,
+            "id": "BOE-A-2015-11724_dtvigesimaoctava_98fd7529",
+            "titulo": "Disposición transitoria vigésima octava",
+            "es_relevante": false,
+            "preview": "Disposición transitoria vigésima octava. Acreditación de determinadas situaciones legales de desempleo. La situación leg"
+          }
+        ],
+        "error": null
+      },
+      {
+        "id_pregunta": 6,
+        "query": "¿Qué derechos tienen los trabajadores en caso de huelga?",
+        "norma_principal": "Real Decreto-ley 17/1977 y Estatuto de los Trabajadores",
+        "modo": "hibrido",
+        "precision_at_1": 1.0,
+        "recall_at_5": 1.0,
+        "hits_at_k": [
+          true,
+          false,
+          true,
+          true,
+          false
+        ],
+        "total_hits_top5": 3,
+        "posicion_primer_acierto": 1,
+        "latencia_ms": 177.53,
+        "chunks_recuperados_resumen": [
+          {
+            "posicion": 1,
+            "id": "BOE-A-2015-11430_a4_06849a8a",
+            "titulo": "Artículo 4",
+            "es_relevante": true,
+            "preview": "Artículo 4. Derechos laborales. 1. Los trabajadores tienen como derechos básicos, con el contenido y alcance que para ca"
+          },
+          {
+            "posicion": 2,
+            "id": "BOE-A-2015-11430_a5_2e246982",
+            "titulo": "Artículo 5",
+            "es_relevante": false,
+            "preview": "Artículo 5. Deberes laborales. Los trabajadores tienen como deberes básicos: a) Cumplir con las obligaciones concretas d"
+          },
+          {
+            "posicion": 3,
+            "id": "BOE-A-2015-11430_a61_f6aac466",
+            "titulo": "Artículo 61",
+            "es_relevante": true,
+            "preview": "Artículo 61. Participación. De conformidad con lo dispuesto en el artículo 4 y sin perjuicio de otras formas de particip"
+          },
+          {
+            "posicion": 4,
+            "id": "BOE-A-2015-11430_a77_92d2102c",
+            "titulo": "Artículo 77",
+            "es_relevante": true,
+            "preview": "Artículo 77. Las asambleas de trabajadores. 1. De conformidad con lo dispuesto en el artículo 4, los trabajadores de una"
+          },
+          {
+            "posicion": 5,
+            "id": "BOE-A-2015-11430_a23_772db508",
+            "titulo": "Artículo 23",
+            "es_relevante": false,
+            "preview": "Artículo 23. Promoción y formación profesional en el trabajo. 1. El trabajador tendrá derecho: a) Al disfrute de los per"
+          }
+        ],
+        "error": null
+      }
+    ]
+  },
+  "dataset_utilizado": [
+    {
+      "id_pregunta": 1,
+      "query": "¿Cuántas horas semanales puede trabajar un empleado a tiempo completo?",
+      "norma_principal": "Estatuto de los Trabajadores (ET)",
+      "articulos_esperados": [
+        "Artículo 34",
+        "Art. 34",
+        "artículo 34"
+      ],
+      "relevant_chunk_ids": [
+        "ET::Artículo 34",
+        "ET_art_34",
+        "chunk_et_34"
+      ],
+      "descripcion_ground_truth": "ET Art. 34 (Jornada máxima legal de 40 horas semanales de promedio)"
+    },
+    {
+      "id_pregunta": 2,
+      "query": "¿Cuánto dura el período de prueba en un contrato indefinido?",
+      "norma_principal": "Estatuto de los Trabajadores (ET)",
+      "articulos_esperados": [
+        "Artículo 14",
+        "Art. 14",
+        "artículo 14"
+      ],
+      "relevant_chunk_ids": [
+        "ET::Artículo 14",
+        "ET_art_14",
+        "chunk_et_14"
+      ],
+      "descripcion_ground_truth": "ET Art. 14 (Período de prueba: límites de 6 meses técnicos titulados y 2 meses demás)"
+    },
+    {
+      "id_pregunta": 3,
+      "query": "¿Qué causas justifican un despido disciplinario?",
+      "norma_principal": "Estatuto de los Trabajadores (ET)",
+      "articulos_esperados": [
+        "Artículo 54",
+        "Art. 54",
+        "artículo 54"
+      ],
+      "relevant_chunk_ids": [
+        "ET::Artículo 54",
+        "ET_art_54",
+        "chunk_et_54"
+      ],
+      "descripcion_ground_truth": "ET Art. 54 (Incumplimientos contractuales graves y culpables que justifican despido disciplinario)"
+    },
+    {
+      "id_pregunta": 4,
+      "query": "¿Cuándo tiene derecho un trabajador a la prestación por incapacidad temporal?",
+      "norma_principal": "Ley General de la Seguridad Social (LGSS)",
+      "articulos_esperados": [
+        "Artículo 169",
+        "Artículo 170",
+        "Artículo 172",
+        "Artículo 283",
+        "Art. 169",
+        "artículo 169"
+      ],
+      "relevant_chunk_ids": [
+        "LGSS::Artículo 169",
+        "LGSS::Artículo 172",
+        "LGSS_art_169"
+      ],
+      "descripcion_ground_truth": "LGSS Art. 169 y ss. (Requisitos y periodos de cotización previa para subsidio IT)"
+    },
+    {
+      "id_pregunta": 5,
+      "query": "¿Cuánto cobra un trabajador en situación de desempleo?",
+      "norma_principal": "Ley General de la Seguridad Social (LGSS)",
+      "articulos_esperados": [
+        "Artículo 270",
+        "Artículo 271",
+        "Art. 270",
+        "artículo 270"
+      ],
+      "relevant_chunk_ids": [
+        "LGSS::Artículo 270",
+        "LGSS::Artículo 271",
+        "LGSS_art_270"
+      ],
+      "descripcion_ground_truth": "LGSS Art. 270 (Cuantía de la prestación contributiva por desempleo: 70% primeros 180 días y 60% resto)"
+    },
+    {
+      "id_pregunta": 6,
+      "query": "¿Qué derechos tienen los trabajadores en caso de huelga?",
+      "norma_principal": "Real Decreto-ley 17/1977 y Estatuto de los Trabajadores",
+      "articulos_esperados": [
+        "Artículo 4",
+        "Artículo 6",
+        "Artículo 28",
+        "Art. 4",
+        "RDL 17/1977"
+      ],
+      "relevant_chunk_ids": [
+        "ET::Artículo 4",
+        "RDL17_1977::Artículo 6",
+        "ET_art_4"
+      ],
+      "descripcion_ground_truth": "ET Art. 4.1.e y RDL 17/1977 (Derecho fundamental de huelga y garantías contractuales)"
+    }
+  ]
+}

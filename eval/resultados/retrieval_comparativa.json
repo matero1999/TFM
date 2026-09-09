@@ -1,0 +1,29 @@
+[
+  {
+    "Modo de Recuperación":"Densa pura (FAISS + BGE-M3)",
+    "Precision@1":0.6667,
+    "Recall@5":1.0,
+    "MRR":0.8056,
+    "Acierto Top-5":"100.0%",
+    "Latencia Media (ms)":464.63,
+    "Consultas Válidas":"6\/6"
+  },
+  {
+    "Modo de Recuperación":"Léxica pura (BM25Okapi)",
+    "Precision@1":0.1667,
+    "Recall@5":0.8333,
+    "MRR":0.4444,
+    "Acierto Top-5":"83.3%",
+    "Latencia Media (ms)":2.07,
+    "Consultas Válidas":"6\/6"
+  },
+  {
+    "Modo de Recuperación":"Híbrida RRF (Densa + Léxica)",
+    "Precision@1":0.6667,
+    "Recall@5":1.0,
+    "MRR":0.8333,
+    "Acierto Top-5":"100.0%",
+    "Latencia Media (ms)":185.71,
+    "Consultas Válidas":"6\/6"
+  }
+]

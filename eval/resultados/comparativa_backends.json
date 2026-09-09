@@ -1,0 +1,24 @@
+[
+  {
+    "Backend":"OPENAI",
+    "Faithfulness":0.7376,
+    "Context Precision":0.9722,
+    "Context Recall":1.0,
+    "Answer Relevancy":0.2166,
+    "Coste Total ($)":0.00788,
+    "Latencia Media (ms)":5019.67,
+    "Tokens Totales":26790,
+    "Tasa Éxito (%)":100.0
+  },
+  {
+    "Backend":"SALAMANDRA",
+    "Faithfulness":0.7576,
+    "Context Precision":0.9639,
+    "Context Recall":1.0,
+    "Answer Relevancy":0.8863,
+    "Coste Total ($)":0.0,
+    "Latencia Media (ms)":41452.5,
+    "Tokens Totales":9906,
+    "Tasa Éxito (%)":100.0
+  }
+]
